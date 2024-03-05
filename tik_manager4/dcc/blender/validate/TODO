@@ -1,0 +1,3 @@
+fix overlapping_uvs 
+    if there is more than 2 object or hight poly model then script gheting crash
+    
