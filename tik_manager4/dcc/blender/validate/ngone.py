@@ -62,11 +62,11 @@ class NgonsValidator:
 
     def failed(self, msg):
         """Print error message to console."""
-        print("Validation failed: {}".format(msg))
+        super().failed(msg)
 
     def passed(self):
         """Print success message to console."""
-        print("Validation passed.")
+        super().passed()
 
 # Usage
 validator = NgonsValidator()
